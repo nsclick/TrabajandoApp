@@ -1,0 +1,87 @@
+<ion-view class="page home">
+	<ion-content>
+
+		<div class="row">
+			<div class="col">
+				<img ng-src="img/logo_capital_humano.png" />
+			</div>
+			<div class="col home_label_wrapper">
+				<div class="home_label">11 DE NOVIEMBRE</div>
+				<div class="home_label">HOTEL W - SANTIAGO</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col col-67 col-offset-16">
+				<img ng-src="img/logos_sociales.png" />
+			</div>
+		</div>
+
+		<!-- Menu -->
+		<div class="home_menu">
+			
+			<div class="row row-full">
+				<div class="col home_menu_btn dark">
+					<a ui-sref="event">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_el_evento.png" />
+						<div>El EVENTO</div>
+					</a>
+				</div>
+				<div class="col home_menu_btn light">
+					<a ui-sref="speakers">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_speakers.png" />
+						<div>SPEAKERS</div>
+					</a>
+				</div>
+				<div class="col home_menu_btn dark">
+					<a ui-sref="schedule">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_programa.png" />
+						<div>PROGRAMA</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row row-full">
+				<div class="col home_menu_btn light">
+					<a ui-sref="map">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_mapa_del_eventos.png" />
+						<div>MAPA DEl EVENTO</div>
+					</a>
+				</div>
+				<div class="col home_menu_btn dark">
+					<a ui-sref="participants">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_empresas_participantes.png" />
+						<div>EMPRESAS PARTICIPANTES</div>
+					</a>
+				</div>
+				<div class="col home_menu_btn light">
+					<a ui-sref="sponsors">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_auspiciadores.png" />
+						<div>AUSPICIADORES</div>
+					</a>
+				</div>
+			</div>
+
+			<div class="row row-full">
+				<div class="col home_menu_btn dark">
+					<a ui-sref="promotions">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_promociones.png" />
+						<div>PROMOCIONES Y DESCUENTOS</div>
+					</a>
+				</div>
+				<div class="col home_menu_btn"><!-- Blank --></div>
+				<div class="col home_menu_btn dark">
+					<a ui-sref="downloads">
+						<img class="col col-50 col-offset-25" ng-src="img/icon_descargas.png" />
+						<div>DESCARGAS 2014</div>
+					</a>
+				</div>
+			</div>
+
+		</div>
+		<!--/ Menu -->
+
+		<div ng-include="'templates/footer.html'"></div>
+
+	</ion-content>
+</ion-view>

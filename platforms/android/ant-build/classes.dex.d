@@ -1,0 +1,22 @@
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes.dex : \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/R$string.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/CordovaApp.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/BuildConfig.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/R$xml.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/R.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/R$drawable.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/com/ionicframework/trabajando888727/R$attr.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/org/apache/cordova/device/Device.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager$1.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/org/apache/cordova/networkinformation/NetworkManager.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$5.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$1.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Options.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/ReceiverActivity.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Receiver.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$3.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$2.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification$4.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/Restore.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/classes/de/appplant/cordova/plugin/localnotification/LocalNotification.class \
+/home/luis/Dev/NSClick/Trabjando.com/app/platforms/android/ant-build/dexedLibs/classes-1e4be22698dd3a4fb47e6cce1255b726.jar \

@@ -1,0 +1,57 @@
+<ion-view class="page" data-ng-class="{int_speakers: data.type == 'international', nat_speakers: data.type == 'national'}">
+	
+	<!-- Header -->
+	<ion-header-bar align-title="left" class="speakers_header">
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">Home</a>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons">
+	    <a ui-sref="speakers" class="button button-clear">
+	    	<i class="icon icon-left">
+	    		<span><img class="icon_back" ng-src="img/icon_volver.png"></img></span>
+	    		<span>Volver</span>
+	    	</i>
+	    </a>
+	  </div>
+	</ion-header-bar>
+	<!--/ Header -->
+
+	<!-- Content -->
+	<ion-content>
+		
+		<div class="row">
+			<div class="col">
+				<h2 class="title">{{data.title}}</h2>
+			</div>
+		</div>
+
+		<!-- Speakers -->
+		<div data-ng-repeat="speakersGroup in speakersGroups">
+
+			<div data-ng-if="!$first" class="row">
+				<div class="col">
+					<div class="separator"></div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="speaker col {{colClass}}" data-ng-repeat="speaker in speakersGroup">
+					<img ng-src="img/{{speaker.photo}}" />
+					<h4 class="name">{{speaker.name | uppercase}}</h4>
+					<a class="button" ui-sref="speaker({ speakerId: speaker.id })">VER M&Aacute;S</a>
+				</div>
+			</div>
+
+		</div>
+		<!--/ Speakers -->
+
+		<!-- Footer -->
+		<div ng-include="'templates/footer2.html'"></div>
+		<!--/ Footer -->
+
+	</ion-content>
+	<!--/ Content -->
+
+
+</ion-view>

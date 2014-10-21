@@ -1,0 +1,114 @@
+<ion-view class="page evaluation">
+	
+	<!-- Header -->
+	<ion-header-bar align-title="left" class="event_header">
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">Home</a>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons">
+	    <a ui-sref="speaker({ speakerId: speaker.id })" class="button button-clear">
+	    	<i class="icon icon-left">
+	    		<span><img class="icon_back" ng-src="img/icon_volver.png"></img></span>
+	    		<span>Volver</span>
+	    	</i>
+	    </a>
+	  </div>
+	</ion-header-bar>
+	<!--/ Header -->
+
+	<!-- Content -->
+	<ion-content>
+		<div class="row">
+			<div class="col">
+				
+				<div class="row">
+					<div class="col">
+						<h2>ENCUESTA EXPOSITOR</h2>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<img ng-src="img/{{speaker.photo}}" />
+						<h3>{{speaker.name | uppercase}}</h3>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col">
+						<!-- Form -->
+						<form name="evaluationForm" data-ng-controller="EvaluationFormCtrl">
+                            
+                            <!-- Success message -->
+							<div data-ng-if="success" class="row">
+								<div class="col">
+									<p>Evaluaci&oacute;n enviada con &eacute;xito!</p>
+								</div>
+							</div>
+                            <!--/ Success message -->
+                            
+                            <!-- Error message -->
+							<div data-ng-if="error" class="row">
+								<div class="col">
+									<p>Oops, algo sucedi&oacute;, por favor intenta de nuevo m&aacute;s tarde.</p>
+								</div>
+							</div>
+                            <!--/ Error message -->
+                            
+                            <!-- No connection Message -->
+							<div data-ng-if="!isConnected" class="row">
+								<div class="col">
+									<p>No hay conexi&oacute;n a Internet. Por favor con&eacute;ctate para poder realizar la evaluaci&oacute;n.</p>
+                                    <p>¿Deseas que se te recuerde m&aacute;s tarde para realizar la evaluaci&oacute;n?</p>
+                                    <button type="button" class="button button-balanced button-block" ng-click="rememberEvaluation()">Si</button>
+								</div>
+							</div>
+                            <!--/ No connection Message -->
+                            
+                            <!-- Questions -->
+                            <div ng-if="isConnected">
+                                
+                                <div data-ng-repeat="question in questions">
+                                    <div>{{$index + 1}}. {{question.text}}</div>
+                                    <div class="range">
+                                        <input data-ng-model="question.value" type="range" data-range min="1" max="7" step="1" value="4" />
+                                    </div>
+                                    <ul>
+                                        <li style="display:inline-block;">1</li>
+                                        <li style="display:inline-block;">2</li>
+                                        <li style="display:inline-block;">3</li>
+                                        <li style="display:inline-block;">4</li>
+                                        <li style="display:inline-block;">5</li>
+                                        <li style="display:inline-block;">6</li>
+                                        <li style="display:inline-block;">7</li>
+                                    </ul>
+                                </div>
+
+                                <div>
+                                    <button ng-click="submit()" class="button button-balanced button-block">
+                                        <span ng-if="!sending">Enviar</span>
+                                        <span ng-if="sending">Enviando...</span>
+                                    </button>
+                                </div>
+                            
+                            </div>
+                            <!--/ Questions -->
+
+						</form>
+						<!--/ Form -->
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div ng-include="'templates/footer2.html'"></div>
+		<!--/ Footer -->
+
+	</ion-content>
+	<!--/ Content -->
+
+
+</ion-view>

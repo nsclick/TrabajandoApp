@@ -1,0 +1,88 @@
+<ion-view class="page speakers">
+	
+	<!-- Header -->
+	<ion-header-bar align-title="left" class="speakers_header">
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">Home</a>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">
+	    	<i class="icon icon-left">
+	    		<span><img class="icon_back" ng-src="img/icon_volver.png"></img></span>
+	    		<span>Volver</span>
+	    	</i>
+	    </a>
+	  </div>
+	</ion-header-bar>
+	<!--/ Header -->
+
+	<!-- Content -->
+	<ion-content>
+		<div class="row">
+			<div class="col text-center">
+				<h2 class="speakers_title">SPEAKERS</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col col-75 col-offset-12_5">
+				
+				<!-- International Speakers Card -->
+				<div class="card speakers_card">
+				  
+					<div class="row">
+						<div class="col col-50 col-offset-25">
+							<img ng-src="img/vector-2.png" />
+						</div>
+					</div>
+
+					<div class="speakers_card_text text-center">
+						<h4>INTERNACIONALES</h4>
+						<a class="button button-light speakers_card_button" ui-sref="speakers_type({ type: 'international' })">
+							<span>VER M&Aacute;S</span>
+						</a>
+					</div>
+
+				</div>
+				<!--/ International Speakers Card -->
+
+				<div class="row">
+					<div class="col">
+
+						<div class="speakers_card_divider"></div>
+
+					</div>
+				</div>
+
+				<!-- National Speakers Card -->
+				<div class="card speakers_card">
+				  
+					<div class="row">
+						<div class="col col-50 col-offset-25">
+							<img ng-src="img/vector-3.png" />
+						</div>
+					</div>
+
+					<div class="speakers_card_text text-center">
+						<h4>NACIONALES</h4>
+						<a class="button button-light speakers_card_button" ui-sref="speakers_type({ type: 'national' })">
+							<span>VER M&Aacute;S</span>
+						</a>
+					</div>
+
+				</div>
+				<!--/ National Speakers Card -->
+
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div ng-include="'templates/footer2.html'"></div>
+		<!--/ Footer -->
+
+	</ion-content>
+	<!--/ Content -->
+
+
+</ion-view>

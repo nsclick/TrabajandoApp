@@ -1,0 +1,91 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "untitled-font-1";
+  src:url("fonts/untitled-font-1.eot");
+  src:url("fonts/untitled-font-1.eot?#iefix") format("embedded-opentype"),
+    url("fonts/untitled-font-1.woff") format("woff"),
+    url("fonts/untitled-font-1.ttf") format("truetype"),
+    url("fonts/untitled-font-1.svg#untitled-font-1") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "untitled-font-1" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "untitled-font-1" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-a:before {
+  content: "a";
+}
+.icon-b:before {
+  content: "b";
+}
+.icon-c:before {
+  content: "c";
+}
+.icon-d:before {
+  content: "d";
+}
+.icon-e:before {
+  content: "e";
+}
+.icon-f:before {
+  content: "f";
+}
+.icon-g:before {
+  content: "g";
+}
+.icon-h:before {
+  content: "h";
+}
+.icon-i:before {
+  content: "i";
+}
+.icon-j:before {
+  content: "j";
+}
+.icon-k:before {
+  content: "k";
+}
+.icon-l:before {
+  content: "l";
+}
+.icon-m:before {
+  content: "m";
+}
+.icon-n:before {
+  content: "n";
+}
+.icon-o:before {
+  content: "o";
+}
+.icon-p:before {
+  content: "p";
+}
+.icon-q:before {
+  content: "q";
+}

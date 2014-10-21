@@ -1,0 +1,62 @@
+<ion-view class="page participants">
+	
+	<!-- Header -->
+	<ion-header-bar align-title="left">
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">Home</a>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">
+	    	<i class="icon icon-left">
+	    		<span><img class="icon_back" ng-src="img/icon_volver.png"></img></span>
+	    		<span>Volver</span>
+	    	</i>
+	    </a>
+	  </div>
+	</ion-header-bar>
+	<!--/ Header -->
+
+	<!-- Content -->
+	<ion-content>
+		
+		<div class="row">
+			<div class="col">
+
+				<div class="row">
+					<div class="col">
+						<h3>EMPRESAS PARTICIPANTES</h3>
+					</div>
+				</div>
+
+				<!-- Participants -->
+				<div data-ng-repeat="participantsGroup in participantsGroups">
+
+					<div data-ng-if="!$first" class="row">
+						<div class="col">
+							<div class="separator"></div>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="participant col {{colClass}}" data-ng-repeat="participant in participantsGroup">
+							<img ng-src="img/{{participant.photo}}" />
+						</div>
+					</div>
+
+				</div>
+				<!--/ Participants -->
+
+			</div>
+		</div>
+		
+
+		<!-- Footer -->
+		<div ng-include="'templates/footer2.html'"></div>
+		<!--/ Footer -->
+
+	</ion-content>
+	<!--/ Content -->
+
+
+</ion-view>

@@ -1,0 +1,66 @@
+<ion-view class="page event">
+	
+	<!-- Header -->
+	<ion-header-bar align-title="left" class="event_header">
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">Home</a>
+	  </div>
+	  <h1 class="title"></h1>
+	  <div class="buttons">
+	    <a ui-sref="home" class="button button-clear">
+	    	<i class="icon icon-left">
+	    		<span><img class="icon_back" ng-src="img/icon_volver.png"></img></span>
+	    		<span>Volver</span>
+	    	</i>
+	    </a>
+	  </div>
+	</ion-header-bar>
+	<!--/ Header -->
+
+	<!-- Content -->
+	<ion-content>
+		<div class="row">
+			<div class="col text-center">
+				<h2 class="event_title">EL EVENTO</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col event_content">
+				<p>
+					En el marco de la 12va versi&oacute;n de la Expo 
+					Capital Humano, hemos querido mostrar 
+					una visi&oacute;n de futuro relacionada con los 
+					cambios tecnol&oacute;gicos y su relaci&oacute;n con 
+					la persona. Hoy todas las disciplinas
+					de Gesti&oacute;n de Personas se cruzan con
+					la necesidad de c&oacute;mo conectar comunicar y desarrollar en la Red.
+				</p>
+
+				<p>
+					Estamos siendo testigos de un cambio 
+					en el paradigma y en la forma en que 
+					observamos y traducimos el mundo que 
+					nos rodea en todos los ámbitos del 
+					ser humano y sobre todo en cómo 
+					establecemos nuestras relaciones 
+					de contacto.
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col event_content">
+				<img ng-src="img/vector-1.png" />
+			</div>
+		</div>
+
+		<!-- Footer -->
+		<div ng-include="'templates/footer2.html'"></div>
+		<!--/ Footer -->
+
+	</ion-content>
+	<!--/ Content -->
+
+
+</ion-view>

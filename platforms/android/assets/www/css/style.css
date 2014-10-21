@@ -1,0 +1,260 @@
+html {
+	font-size: 62.5%
+}
+
+body {
+	background-color: #140d2e;
+}
+
+img {
+	width: 100%;
+}
+
+/* Home */
+
+.home {
+	background-color: #140d2e;
+}
+
+.home_label_wrapper {
+	text-align: right;
+}
+
+.home_label {
+	background-color: #208783;
+	color: #fff;
+	margin-top: 1rem;
+	padding: 0.3rem; 
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.home_menu_btn {
+	font-size: 1rem;
+	text-align: center;
+}
+
+.home_menu_btn a,
+.home_menu_btn a:visited {
+	text-decoration: none;
+	border-color: transparent;
+	background: none;
+	box-shadow: none;
+	color: #fff;
+}
+
+.home_menu_btn.dark {
+	background-color: #212349;
+}
+
+.home_menu_btn.light {
+	background-color: #293b6b;
+}
+
+.footer_label {
+	color: #fff;
+	font-size: 1rem;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+}
+
+/* The Event */
+
+.event {
+	background-color: #f6e9b0;
+}
+
+.event_header {
+	background-color: #e6be26;
+	color: #fff !important;
+}
+
+.event_header a,
+.event_header a:visited {
+	color: #fff !important;
+}
+
+.event_title {
+	color: #f00;
+}
+
+.event_content {
+	text-align: justify;
+	padding-left: 2rem;
+	padding-right: 2rem;
+	color: #337fb5;
+}
+
+.event .hashtag {
+	color: #f00;
+	padding-left: 2rem;
+}
+
+.event .footer_label {
+	color: #337fb5;
+}
+
+/* Speakers */
+
+.speakers {
+	background-color: #de4a39;
+	color: #fff;
+}
+
+.speakers_header {
+	background-color: #3d0b0f;
+	color: #fff !important;
+}
+
+.speakers_title {
+	color: #fff;
+}
+
+.speakers_header a,
+.speakers_header a:visited {
+	color: #fff !important;
+}
+
+.speakers_card {
+	box-shadow: none;
+	background-color: transparent;
+	border: none;
+}
+
+.speakers_card_text {
+	color: #fff;
+}
+
+.speakers_card_text h4 {
+	color: #fff;
+}
+
+.speakers_card_button {
+	color: #de4a39 !important;
+}
+
+.speakers_card_divider {
+	min-height: 1px;
+	background-color: #fff;
+}
+
+.speakers .hashtag {
+	color: #fff;
+	padding-left: 2rem;
+}
+
+.speakers .footer_label {
+	color: #fff;
+}
+
+/* International Speakers */
+
+.int_speakers {
+	background-color: #00b5a1;
+	color: #fff;
+}
+
+.int_speakers .speakers_header {
+	background-color: #0a1c1a;
+}
+
+.int_speakers .speakers_header a {
+	color: #fff !important;
+}
+
+.int_speakers .title {
+	color: #fff;
+}
+
+.int_speakers .speaker a,
+.int_speakers .speaker a:visited {
+	color: #00b5a1 !important;
+}
+
+.int_speakers .name {
+	color: #fff !important;
+}
+
+/* National Speakers */
+
+.nat_speakers {
+	background-color: #912326;
+	color: #fff;
+}
+
+.nat_speakers .speakers_header {
+	background-color: #38070e;
+	color: #fff !important;
+}
+
+.nat_speakers .title {
+	color: #fff;
+}
+
+.nat_speakers .speaker a,
+.nat_speakers .speaker a:visited {
+	color: #912326 !important;
+}
+
+.nat_speakers .name {
+	color: #fff !important;
+}
+
+/* Ionic overwrite */
+
+.col-offset-16,
+.col-offset-17 {
+	margin-left: 16.5%;
+}
+
+.col-70 {
+	width: 70%;
+}
+
+.col-offset-12_5 {
+	margin-left: 12.5%;
+}
+
+.col-offset-37_5 {
+	margin-left: 37.5%;
+}
+
+.row.row-full {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/* Footer */
+
+.separator {
+	border-bottom: 2px solid #fff;
+}
+
+.hashtag {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+.social_buttons {
+	text-align: right;
+	padding-right: 2rem;
+}
+
+.social_button {
+	width: 24px;
+	height: auto;
+	margin: 0px !important;
+	padding: 0px !important;
+	border: none;
+	position: relative;
+	display: inline-block;
+}
+
+/* Extras */
+
+.icon img {
+	width: 16px;
+	height: 16px;
+}
